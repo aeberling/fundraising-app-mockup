@@ -56,11 +56,11 @@ const FundraisingChart: FC = () => {
           }}
         />
         <Legend 
-          formatter={(value) => <span className="text-generation-dark-gray">{value}</span>}
+          formatter={(value) => <span className="text-gray-700">{value}</span>}
         />
         <Bar 
           dataKey="amount" 
-          fill="#0891b2" 
+          fill="#6366f1" 
           radius={[4, 4, 0, 0]}
           animationDuration={1500}
         />
